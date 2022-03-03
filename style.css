@@ -1,0 +1,64 @@
+/* quete box model */
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    padding: 10px 15px;
+} 
+li:hover{
+  color: rgb(50,50,50);
+  background-color: rgb(200,200,200);
+  cursor: pointer;
+  
+}
+nav ul{ 
+  background-color: grey;     
+  padding: 0px; 
+  margin: 0px;
+}
+
+.carousel {
+    background-color: #D8D8D8;
+    height: 185px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+ 
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 25px;
+    color: black;
+
+}
+article{
+    margin: 3%;
+    background-color: #D8D8D8;
+    height: 300px;
+    width: 27%;
+    display: inline-block;
+}
+.contact{
+    font-size: 30px;
+    color: grey;
+    margin-right: 1300px;
+} 
+
+form > h2{
+    text-align: left;
+    font-size: 30px;
+    margin: 25px;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    width: 80%;
+    display: block;
+    margin-left: 10%;
+    margin-top: 15px;
+}
